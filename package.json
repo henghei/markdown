@@ -1,0 +1,25 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gitbook serve ./content ./gh-pages",
+    "deploy": "node ./scripts/deploy-gh-pages.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henghei/markdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henghei/markdown/issues"
+  },
+  "homepage": "https://github.com/henghei/markdown#readme",
+  "dependencies": {
+    "gh-pages": "^1.0.0"
+  }
+}
